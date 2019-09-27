@@ -94,6 +94,10 @@ margin-top: -24%;
 
 }
 
+div > .imggrow {
+    width: 40%;
+}
+
 .flexc2{
     height: 88%;
     width: 50%;
