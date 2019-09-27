@@ -22,8 +22,6 @@ body {
 #header > img {
    margin-top: 22px;
        margin-left: 12%;
-       height: 60%;
-       width: 60%;
 }
 
 #header > #logo {
@@ -34,8 +32,6 @@ body {
 }
 
 #article {
-    width: 100%;
-    height: 100%;
     top: 110px;
     position: relative;
     background-color: white;
@@ -56,9 +52,7 @@ margin-top: -24%;
     width: 76.5% !important;
 }
 
-#article > p {
-    margin-bottom: 8px;
-}
+
 
 .flex1{
     display: flex;
@@ -79,7 +73,7 @@ margin-top: -24%;
     padding-bottom: 8px;
     background-color: #0E0E0E;
     color: white;
-    bottom: -40px;
+    bottom: -34px;
     position: absolute;
     width: 187.5px;
     font-size: 0.7em;
@@ -119,6 +113,7 @@ margin-top: -24%;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 .flex1 > .flexc23{
     margin-top: -44.6%;
@@ -142,8 +137,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    top: 0.5em;
 }
 
 li {
@@ -166,8 +159,7 @@ li a {
 	top: 120px;
 	height: 6%;
 	position: absolute;
-	align-content: center;
-    background-color: black;
+    background-color: #131313;
      max-width: 800px;
      width: 100%;
          margin: auto;    
