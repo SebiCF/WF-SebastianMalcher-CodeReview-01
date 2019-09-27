@@ -3,29 +3,33 @@ body {
 }
 
 #main {
-    margin-left: 17%;
-    margin-right: 17%;    
+    max-width: 800px;
+     margin: auto;    
 }
 
 
 #header {
     height: 120px;
-    background-color: #6A100F;
+    background-color: #581113;
     position: absolute;
     top: 0px;
-    width: 66%;
+     max-width: 800px;
+         margin: auto;    
+    
 }
 
 #header > img {
-    margin-top: 22px;
-    margin-right: 55px;
-    height: 60%;
-    width: 60%;
+   margin-top: 22px;
+       margin-left: 12%;
+       height: 60%;
+       width: 60%;
 }
 
 #header > #logo {
-width: 25%;
-margin-left: 17px;
+    width: 20%;
+        margin-left: 17px;
+        height: 35%;
+        margin-bottom: 2%;
 }
 
 #article {
@@ -38,15 +42,12 @@ margin-left: 17px;
 
 div[class^=headerdiv] {
     height: 1.3em;
-    background-color: #DEDEDE;
-    margin-right: 4%;
-    margin-left: 4%;
-    width: 91.4%;
-    top: 8px;
-    position: relative;
-    padding-left: 9px;
-    padding-top: 2px;
-    padding-bottom: 0px;
+        background-color: #DEDEDE;
+        margin-left: 4.3%;
+        width: 91.2%;
+        padding-left: 9px;
+        padding-top: 2px;
+        padding-bottom: 0px;
 }
 .headerdiv1
 {
@@ -60,22 +61,36 @@ div[class^=headerdiv] {
 }
 
 .flex1{
-    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.1%;
+    margin-right: 3.1%;
+    align-items: baseline;
+    justify-content: space-around;
+    /*margin: 15px;
     margin-left: 49px;
     height: 100%;
     width: 75%;
-    display: flex;
     justify-content: space-around;
     align-content: space-around;
-    margin-top: 26px;
+    margin-top: 26px;*/
 
 }
 .flexc1{
-height: 33%;
-width: 33%;
-margin: 8px;
+  width: 26%;
+      margin: 8px;
+      margin-top: 2%;
+}
+div > .flexc12{
+  width: 26%;
+      margin: 8px;
+      margin-top: 6%;
+
 }
 
+img.imggrow{
+    flex-grow: 2;
+}
 .flexc2{
     height: 88%;
     width: 50%;
@@ -102,10 +117,9 @@ margin: 8px;
         padding-left: 5px;
 }
 img[class^=banner] {
-        margin-left: 83%;
-        position: static;
-        margin-top: -22.6%;
-}
+align-self: flex-start;
+margin-top: 2%;
+        }
 #banner1 {
     margin-top: -32.5%;
     height: 40%;
@@ -114,6 +128,7 @@ img[class^=banner] {
 #howtobanner {
     margin-left: 15px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -144,6 +159,8 @@ li a {
 	position: absolute;
 	align-content: center;
     background-color: black;
-    width: 66%;
+     max-width: 800px;
+         margin: auto;    
+    }
 
 }
