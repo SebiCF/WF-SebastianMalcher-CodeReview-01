@@ -14,7 +14,8 @@ body {
     position: absolute;
     top: 0px;
      max-width: 800px;
-         margin: auto;    
+         margin: auto; 
+         width: 100%;   
     
 }
 
@@ -33,7 +34,7 @@ body {
 }
 
 #article {
-    width: 101.2%;
+    width: 100%;
     height: 100%;
     top: 110px;
     position: relative;
@@ -44,17 +45,16 @@ div[class^=headerdiv] {
     height: 1.3em;
         background-color: #DEDEDE;
         margin-left: 4.3%;
-        width: 91.2%;
+        width: 90.5%;
         padding-left: 9px;
         padding-top: 2px;
         padding-bottom: 0px;
 }
-.headerdiv1
-{
-   width: 76.9% !important;
-       margin-right: 21% !important;
-       margin-top: -27% !important;
-       }
+.headerdiv1{
+margin-top: -24%;
+    position: absolute;
+    width: 76.5% !important;
+}
 
 #article > p {
     margin-bottom: 8px;
@@ -65,32 +65,41 @@ div[class^=headerdiv] {
     flex-wrap: wrap;
     margin-left: 3.1%;
     margin-right: 3.1%;
-    align-items: baseline;
-    justify-content: space-around;
-    /*margin: 15px;
-    margin-left: 49px;
-    height: 100%;
-    width: 75%;
-    justify-content: space-around;
-    align-content: space-around;
-    margin-top: 26px;*/
+    
 
 }
 .flexc1{
-  width: 26%;
-      margin: 8px;
-      margin-top: 2%;
+  width: 100%;
+  height: 130px;
+  display: block;
 }
-div > .flexc12{
-  width: 26%;
-      margin: 8px;
-      margin-top: 6%;
+.flexdiv > p {
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #0E0E0E;
+    color: white;
+    bottom: -40px;
+    position: absolute;
+    width: 187.5px;
+    font-size: 0.7em;
+    line-height: 1.8em;
+}
+
+.flexdiv{
+      width: 26%;
+          margin: 9px;
+          margin-top: 2%;
+          height: 130px;
+          position: relative;
+    
+}
+.flexc12{
+ 
+      margin-top: -20.3%;
 
 }
 
-img.imggrow{
-    flex-grow: 2;
-}
 .flexc2{
     height: 88%;
     width: 50%;
@@ -160,6 +169,7 @@ li a {
 	align-content: center;
     background-color: black;
      max-width: 800px;
+     width: 100%;
          margin: auto;    
     }
 
