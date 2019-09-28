@@ -5,7 +5,7 @@ body {
 
 #main {
     max-width: 800px;
-     margin: auto;   
+    margin: auto;
 }
 
 
@@ -14,22 +14,20 @@ body {
     background-color: #581113;
     position: absolute;
     top: 0px;
-     max-width: 800px;
-         margin: auto; 
-         width: 100%;   
-    
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+
 }
 
-#header  img {
-   margin-top: 22px;
-       margin-left: 12%;
-}
+#header img {
+      margin-top: 18px;
+      margin-left: 6%;
+  }
 
-#header > #logo {
-    width: 20%;
-        margin-left: 17px;
-        height: 35%;
-        margin-bottom: 2%;
+#header >a > #logo {
+    margin-bottom: 14px;
+        margin-left: 20px;
 }
 
 #article {
@@ -37,27 +35,28 @@ body {
     position: relative;
     background-color: white;
     max-width: 800px;
-     margin: auto;
+    margin: auto;
 
 }
 
 div[class^=headerdiv] {
     height: 1.3em;
-        background-color: #DEDEDE;
-        margin-left: 4.3%;
-        width: 90.5%;
-        padding-left: 9px;
-        padding-top: 2px;
-        padding-bottom: 0px;
+    background-color: #DEDEDE;
+    margin-left: 4.3%;
+    width: 90.5%;
+    padding-left: 9px;
+    padding-top: 2px;
+    padding-bottom: 0px;
 }
-.headerdiv1{
-margin-top: -24%;
+
+.headerdiv1 {
+    margin-top: -24%;
     position: absolute;
     width: 76.5% !important;
 }
 
-div[id=articleflex]{
-display: flex;
+div[id=articleflex] {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -67,75 +66,80 @@ display: flex;
     margin-top: 3%;
     background-color: #DEDEDE;
     position: relative;
-        width: 82%;
+    width: 82%;
 }
 
 
 
-div[class^=flex1]{
+div[class^=flex1] {
     display: flex;
     flex-wrap: wrap;
     margin-left: 3.1%;
     margin-right: 3.1%;
 }
-.flex1even{
+
+.flex1even {
     align-content: space-around;
 }
-img[class^=imgscale]{
-  width: 100%;
-  height: 130px;
-  display: block;
+
+img[class^=imgscale] {
+    width: 100%;
+    height: 130px;
+    display: block;
 }
 
-.flexdiv > .imgscalemore{
-height: 170px;
+.flexdiv>.imgscalemore {
+    height: 170px;
 }
 
 .flexdiv p {
     padding: 3.9px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        background-color: #0E0E0E;
-        color: white;
-        bottom: -28px;
-        position: absolute;
-        width: 96%;
-        font-size: 0.65em;
-        line-height: 1.3em;
-        font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #0E0E0E;
+    color: white;
+    bottom: -28px;
+    position: absolute;
+    width: 96%;
+    font-size: 0.65em;
+    line-height: 1.3em;
+    font-weight: bold;
 }
-.flex1even > .imggrow p {
+
+.flex1even>.imggrow p {
     bottom: -58%;
-        width: 97.3%;
-        font-size: 0.9em;
-        line-height: 1.1em;
-        padding-top: 13px;
-        padding-bottom: 13px;
+    width: 97.3%;
+    font-size: 0.9em;
+    line-height: 1.1em;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
-.flexdiv{
-      width: 26%;
-          margin: 9px;
-          margin-top: 2%;
-          height: 130px;
-          position: relative;
-    
-}
-.flexadjust{
- 
-      margin-top: -20.3%;
-}
-.flexadjust2{
-margin-top: -26%;
+.flexdiv {
+    width: 26%;
+    margin: 9px;
+    margin-top: 2%;
+    height: 130px;
+    position: relative;
+
 }
 
-div > .imggrow {
+.flexadjust {
+
+    margin-top: -20.3%;
+}
+
+.flexadjust2 {
+    margin-top: -26%;
+}
+
+div>.imggrow {
     width: 38.5%;
     margin-left: 1.2%;
 }
 
 
-#flexbanner{
+#flexbanner {
     height: 100%;
     width: 100%;
     display: flex;
@@ -144,38 +148,42 @@ div > .imggrow {
     margin-bottom: 7px;
 }
 
-#imgright{
+#imgright {
     margin-left: 4.2%;
 }
-.flex1 > .flexc23{
+
+.flex1>.flexc23 {
     margin-top: -44.6%;
-        padding-right: 3px;
-        padding-left: 5px;
-}
-img[class^=banner] {
-    align-self: flex-start;
-        margin-top: 15%;
-        }
-.banner1{
-    height: 425px;
-        width: 100%;
-}
-div[class^=footer]{
-    height: 60px;
-    max-width: 800px;
-     margin: auto;
-     position: relative;
+    padding-right: 3px;
+    padding-left: 5px;
 }
 
-div[class=footer1]{
+img[class^=banner] {
+    align-self: flex-start;
+    margin-top: 15%;
+}
+
+.banner1 {
+    height: 425px;
+    width: 100%;
+}
+
+div[class^=footer] {
+    height: 60px;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+div[class=footer1] {
     height: 110px;
     display: flex;
-flex-wrap: wrap;
-justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     background-color: #0E0E0E;
 }
 
-div[class=footer2]{
+div[class=footer2] {
     height: 100%;
     color: white;
     background-color: #0E0E0E;
@@ -183,8 +191,9 @@ div[class=footer2]{
 }
 
 #footerlogo {
-align-self: flex-end;
+    align-self: flex-end;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -208,20 +217,74 @@ li a {
 }
 
 #navbar {
-	top: 120px;
-	height: 6%;
-	position: absolute;
+    top: 120px;
+    height: 6%;
+    position: absolute;
     background-color: #131313;
-     max-width: 800px;
-     width: 100%;
-         margin: auto;    
-    }
-    #navbar2 {
-        
-        background-color: #131313;
-         max-width: 800px;
-         width: 100%;
-               
-             align-self: flex-start; 
-        }
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
 
+.footer1>.navbar2 {
+
+    background-color: #131313;
+    max-width: 800px;
+    width: 100%;
+
+    align-self: flex-start;
+}
+
+
+
+
+
+
+/* mobile didnt finish in time*/
+
+@media screen and (max-width: 400px) {
+    body {}
+
+    #main {
+        width: 162%;
+        margin-left: 12%;
+        margin-right: 46%;
+    }
+
+    #header {
+        width: 250%;
+        margin-left: -13%;
+    }
+
+    #dishidden {
+        display: none;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+        width: 184%;
+        margin-left: -13%;
+
+
+    }
+
+    #article {}
+
+    .flex1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #ecc4c4; */
+        height: 585px;
+    }
+
+    .flexdiv {
+        width: 35%;
+        margin: 8px;
+        margin-top: 8%;
+        height: 130px;
+        position: relative;
+    }
+
+}
