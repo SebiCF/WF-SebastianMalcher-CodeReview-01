@@ -1,10 +1,11 @@
 body {
     background-color: #0E0E0E;
+    font-family: "Arial Narrow", sans-serif;
 }
 
 #main {
     max-width: 800px;
-     margin: auto;    
+     margin: auto;   
 }
 
 
@@ -19,7 +20,7 @@ body {
     
 }
 
-#header > img {
+#header  img {
    margin-top: 22px;
        margin-left: 12%;
 }
@@ -35,6 +36,9 @@ body {
     top: 110px;
     position: relative;
     background-color: white;
+    max-width: 800px;
+     margin: auto;
+
 }
 
 div[class^=headerdiv] {
@@ -54,30 +58,45 @@ margin-top: -24%;
 
 
 
-.flex1{
+div[class^=flex1]{
     display: flex;
     flex-wrap: wrap;
     margin-left: 3.1%;
     margin-right: 3.1%;
-    
-
 }
-.flexc1{
+.flex1even{
+    align-content: space-around;
+}
+img[class^=imgscale]{
   width: 100%;
   height: 130px;
   display: block;
 }
+
+.flexdiv > .imgscalemore{
+height: 170px;
+}
+
 .flexdiv > p {
-    padding: 4px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    background-color: #0E0E0E;
-    color: white;
-    bottom: -34px;
-    position: absolute;
-    width: 187.5px;
-    font-size: 0.7em;
-    line-height: 1.8em;
+    padding: 3.9px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: #0E0E0E;
+        color: white;
+        bottom: -28px;
+        position: absolute;
+        width: 96%;
+        font-size: 0.65em;
+        line-height: 1.3em;
+        font-weight: bold;
+}
+.flex1even > .imggrow > p {
+    bottom: -58%;
+        width: 97.3%;
+        font-size: 0.9em;
+        line-height: 1.1em;
+        padding-top: 13px;
+        padding-bottom: 13px;
 }
 
 .flexdiv{
@@ -88,36 +107,31 @@ margin-top: -24%;
           position: relative;
     
 }
-.flexc12{
+.flexadjust{
  
       margin-top: -20.3%;
-
+}
+.flexadjust2{
+margin-top: -26%;
 }
 
 div > .imggrow {
-    width: 40%;
+    width: 38.5%;
+    margin-left: 1.2%;
 }
 
-.flexc2{
-    height: 88%;
-    width: 50%;
-    margin: 8px;
-    margin-top: -4px;
-}
 
-#flexc21 {
-    margin-right: 15px;
-    margin-left: 10px;
-    margin-top: -4px;
-    height: 102%;
-}
-
-#flex2{
+#flexbanner{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+
+#imgright{
+    margin-left: 4.2%;
 }
 .flex1 > .flexc23{
     margin-top: -44.6%;
@@ -125,18 +139,38 @@ div > .imggrow {
         padding-left: 5px;
 }
 img[class^=banner] {
-align-self: flex-start;
-margin-top: 2%;
+    align-self: flex-start;
+        margin-top: 15%;
         }
-#banner1 {
-    margin-top: -32.5%;
-    height: 40%;
+.banner1{
+    height: 425px;
+        width: 100%;
+}
+div[class^=footer]{
+    height: 60px;
+    max-width: 800px;
+     margin: auto;
+     position: relative;
 }
 
-#howtobanner {
-    margin-left: 15px;
+div[class=footer1]{
+    height: 110px;
+    display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+    background-color: #0E0E0E;
 }
 
+div[class=footer2]{
+    height: 100%;
+    color: white;
+    background-color: #0E0E0E;
+    text-align: center;
+}
+
+#footerlogo {
+align-self: flex-end;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -168,5 +202,12 @@ li a {
      width: 100%;
          margin: auto;    
     }
+    #navbar2 {
+        
+        background-color: #131313;
+         max-width: 800px;
+         width: 100%;
+               
+             align-self: flex-start; 
+        }
 
-}
